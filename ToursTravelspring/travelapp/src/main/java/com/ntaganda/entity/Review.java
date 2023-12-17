@@ -11,10 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-/*
- * author: adithya95
- */
-@Entity
+
 @Table(name="Review_table")
 public class Review {
 	@Id
